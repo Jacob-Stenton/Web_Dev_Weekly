@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+
+* {
+    font-family: 'IBM Plex Mono', monospace;
+    text-shadow: 1px 1px black;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(248, 248, 248);
+    margin: 0;
+}
+
+header {
+    height: 10vh;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(40, 40, 40, 0.555);
+}
+
+.index_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h4 {
+    color: rgb(255, 255, 255);
+}
+
+.hub_link {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hub_link a {
+    transition: all 0.3s;
+}
+
+.hub_link a:hover {
+    color: black;
+}
+
+.header_title {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin: 0;
+    display: block
+}
+
+#center_div {
+    height: 300px;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav_list li {
+    margin: 15px;
+    list-style: none;
+    display: flex;
+
+}
+
+.nav_list a {
+    padding: 0 10px;
+    border-left: 2px solid rgba(40, 40, 40, 0.555);
+    border-Right: 2px solid rgb(40, 40, 40, 0.555);
+    transition: all 0.5s;
+}
+
+.nav_list a:hover {
+    color: black;
+    transform: translateY(-3px);
+    padding: 0 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-top: 2px solid rgba(40, 40, 40, 0.555);
+}
+
+footer h6 {
+    color: rgb(255, 255, 255);
+    justify-content: right;
+    margin: 40px;
+}

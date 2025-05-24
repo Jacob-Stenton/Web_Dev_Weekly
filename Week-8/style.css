@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#imgBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin: 5px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px white;
+}
+
+body {
+    background-color: black;
+
+}
+
+#starBacking {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.star {
+    color: rgb(255, 255, 170);
+
+}

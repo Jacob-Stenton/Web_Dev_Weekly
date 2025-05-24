@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+}
+
+#ball {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 50px;
+  position: absolute;
+}

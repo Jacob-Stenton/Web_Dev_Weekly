@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(24,24,24);
+}
+
+#maindiv {
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#maindiv h2 {
+    position: absolute;
+}
+
+.coldiv{
+    height: 100svh;
+    width: 100svw;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#col {
+    width: 235px;
+    height: 50px;
+    background-color: rgba(0,0,0,0);
+    border-style: none;
+    box-shadow: 1px 1px 10px black inset;
+}
